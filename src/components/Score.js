@@ -1,12 +1,14 @@
+
 import React, {Component} from 'react';
 import { Alert, StyleSheet, Text, View, Button } from 'react-native';
 
-export default class Card extends React.Component {
+export default class Score extends React.Component {
   render() {
-    return (
-     // <View style={styles.container}>
-        <Text>this.props.text</Text>
-     // </View>
+   return (
+       <View>
+           <Text>You scored</Text>
+            <Text>{this.props.numCorrect} / {this.props.numItems}</Text>
+      </View>
     );
   }
 }
