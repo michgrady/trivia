@@ -1,10 +1,14 @@
+
 import React, {Component} from 'react';
 import { Alert, StyleSheet, Text, View, Button } from 'react-native';
 
-export default class Paginator extends React.Component {
+export default class ScoredItem extends React.Component {
   render() {
    return (
-      <Text>{this.props.currentPage} of {this.props.totalPages}</Text>
+       <View>
+            <Text>{this.props.isCorrect}</Text>
+            <Text>{this.props.text}</Text>
+      </View>
     );
   }
 }

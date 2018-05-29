@@ -1,0 +1,14 @@
+[
+    {
+        "text": "True is spelled Trew",
+        "category": "General",
+        "correctAnswer": "FALSE",
+        "userAnswer": null
+    },
+    {
+        "text": "A cat is an animal",
+        "category": "Science",
+        "correctAnswer": "TRUE",
+        "userAnswer": null
+    }
+]
