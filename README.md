@@ -4,6 +4,7 @@ Cross-platform trivia game created using React Native
 ## Build instructions
 
 yarn install
+
 yarn start
 
 ## Future
